@@ -11,15 +11,23 @@ header {
 }
 
 nav ul {
-    list-style-type: circle;
+    list-style-type: none;
     margin: 0;
-    padding: 0;
-}
+    padding: 0;}
 
-nav ul li {
-    display: inline;
-    margin-right: 30px;
-}
+.listes {
+        display: grid;
+        margin-right: 30px;
+ }
+    
+.listes a {
+        color: inherit;
+        text-decoration: none;
+ }
+ 
+.listes a:hover {
+        color: rgb(40, 173, 80);
+ }
 
 main {
     padding: 20px;
@@ -50,7 +58,7 @@ footer {
 
 
 main article img {
-    max-width: 100%;
+    max-width: 70%;
 }
 
 footer > article {
